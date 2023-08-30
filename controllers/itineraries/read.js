@@ -4,7 +4,7 @@ export default async (req,res,next) => {
     try {
         let queries = {}
         if(req.query.city_id){
-            queries.city_id = req.query.city
+            queries.city_id = req.query.city_id
         }
         let allItineraries = await Itinerary
             .find(queries,'-__v -createdAt -updatedAt')
