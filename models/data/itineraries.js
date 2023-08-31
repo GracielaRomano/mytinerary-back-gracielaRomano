@@ -89,21 +89,21 @@ const itineraries = [{
     photo: 'https://gadsventure.com/wp-content/uploads/2019/12/Webp.net-resizeimage-2019-12-18T144431.703-800x600.jpg'
 },{
     name: 'Traditional', 
-    city_id: 'Zambia',
+    city_id: 'Lusaka',
     price: 20,
     duration: 160,
     tags: ['#tradition', '#dance', '#happyness'],
     photo: 'https://gpjs3bucket.s3.amazonaws.com/wp-content/uploads/2018/08/26141032/GPJNew_Zambia_PP_Crowds-1_Web.jpg'
 },{
     name: 'Adventure Time',
-    city_id: 'Zambia',
+    city_id: 'Lusaka',
     price: 20,
     duration: 160,
     tags: ['#nature', '#adrenaline', '#power'],
     photo: 'https://www.southluangwasafaris.com/wp-content/uploads/2018/04/livadv_2013-03-207.x89638.jpg'
 },{
     name: 'Fauna and Flora',
-    city_id: 'Zambia',
+    city_id: 'Lusaka',
     price: 20,
     duration: 160,
     tags: ['#nature', '#animals', '#peace'],
