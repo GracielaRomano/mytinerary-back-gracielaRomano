@@ -10,7 +10,8 @@ let schema = new Schema({
     description: { type:String,default:"edit later" },
     smalldescription: { type:String,default:"edit later" },
     featuredLocation: { type:String,default:"edit later" },
-    admin_id: { type:Types.ObjectId,required:true,ref:'users' }
+    admin_id: { type:Types.ObjectId,required:true,ref:'users' },
+    country_id: { type:Types.ObjectId,required:true,ref:'countries' }
     //para relacionar datos en mongo es necesario REFERENCIAR EL DATO HACIA LA COLECCION QUE NECESITO RELACIONARME
 })
 //estoy parado en el modelo City de la coleccion cities

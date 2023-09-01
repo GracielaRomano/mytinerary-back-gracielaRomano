@@ -137,6 +137,39 @@ const cities = [{
     featuredLocation: "Salah Al Din",
     admin_id: "cin@mh.com",
     country_id: "Egypt"
+},{
+    country: "Italy",
+    fundation: "2022-05-23",
+    population: 9540000,
+    photo: "https://estaticos-cdn.prensaiberica.es/clip/ca13e086-404f-4a69-bc09-a096035f3c10_source-aspect-ratio_default_0.jpg",
+    city: "Cinque Terre",
+    description: "In Italy there is a coastal area in the northwest of the country called the Cinque Terre, which stretches from Punta Mesco to Punta di Montenero. Its name refers to the five towns it is made up of: Monterosso, Vernazza, Corniglia, Manarola and Riomaggiore. These are small towns whose main attraction is the brightly colored houses, painted in the 60s and 70s to attract travelers. The advantage of these municipalities is that they are connected to a train line, so you can move between them without the need for private transport..",
+    smalldescription: "In Italy there is a coastal area in the northwest of the country called the Cinque Terre, which stretches from Punta Mesco to Punta di Montenero. Its name refers to the five towns it is made up of: Monterosso, Vernazza, Corniglia, Manarola and Riomaggiore.",
+    featuredLocation: "Cinque Terre",
+    admin_id: "algo@algo.com",
+    country_id: "Italy"
+},{
+    country: "EE.UU",
+    fundation: "2022-06-20",
+    population: 103698,
+    photo: "https://www.costacruceros.es/content/dam/costa/costa-magazine/article-images/what-to-see-in-miami/miami-downtown.jpg.image.1296.974.high.jpg",
+    city: "Miami",
+    description: "Are you walking around South Beach? Or walking down the famous Ocean Drive? Welcome to Miami, the capital of Florida that is synonymous with golden beach life around the world. Like all great American cities, Miami is also an endless mix of things to see and do, and a fascinating world to discover.",
+    smalldescription: "Are you walking around South Beach? Or walking down the famous Ocean Drive? Welcome to Miami, the capital of Florida that is synonymous with golden beach life around the world.",
+    featuredLocation: "South Beach",
+    admin_id: "algo@algo.com",
+    country_id: "EE.UU"
+},{
+    country: "England",
+    fundation: "2023-01-02",
+    population: 7569832,
+    photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Cl83UmPiPRfCTlk2iqvvfREfXqFWTPV9jQ&usqp=CAU",
+    city: "London",
+    description: "Barrios con diferentes sabores, monumentos y parques que hemos visto en infinidad de ocasiones en películas, demás de interesantes museos, muchos de ellos gratuitos, hacen que pasar unos días en Londres sea algo apasionante. Son millones las cosas interesantes de Londres.",
+    smalldescription: "Curious facts about London introduce us to a fascinating city. With an extension of 1,580 square kilometers, it is the largest city in Europe.",
+    featuredLocation: "Salah Al Din",
+    admin_id: "algo@algo.com",
+    country_id: "England"
 }]
 
 async function createCities(arrayCities) {
