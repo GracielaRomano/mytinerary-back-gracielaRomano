@@ -3,7 +3,7 @@ import userRouter from './users.js'
 import cityRouter from './cities.js'
 import itineraryRouter from './itineraries.js'
 import activityRouter from './activities.js'
-
+import authRouter from './auth.js'
 let router = express.Router();
 
 /* GET home page. */
@@ -16,5 +16,6 @@ router.use('/users',userRouter)
 router.use('/cities',cityRouter)
 router.use('/itineraries',itineraryRouter)
 router.use('/activities',activityRouter)
+router.use('/auth',authRouter)
 
 export default router;

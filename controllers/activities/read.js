@@ -6,6 +6,7 @@ export default async (req,res,next) => {
         if(req.query.itinerary_id){
             queries.itinerary_id = req.query.name
         }
+        console.log('en read')
         let allActivities = await Activity
             .find(queries,'-__v -createdAt -updatedAt')
             .populate({
