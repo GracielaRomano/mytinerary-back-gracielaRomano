@@ -1,8 +1,9 @@
 import Activity from "../../models/Activity.js";
 
+// Devuelve todos las actividades de un itinerario 
 export default async (req,res,next) =>{
     try{
-        let oneActivity = await Activity.findOne({ _id: req.params._id})
+        let oneActivity = await Activity.find({ itinerary_id: req.params._id})
         if (oneActivity){
             return res.status(201).json({
                 success:true,
