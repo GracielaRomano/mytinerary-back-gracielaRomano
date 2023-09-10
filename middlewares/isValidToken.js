@@ -12,6 +12,6 @@ export default (req,res,next)=>{
             //console.log(req.token);
             return next()
     } catch (error) {
-        
+        return next(error)
     }
 }
