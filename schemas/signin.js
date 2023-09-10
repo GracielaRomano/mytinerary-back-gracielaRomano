@@ -8,7 +8,7 @@ let signinSchema = joi.object({
         "string.empty": "email is required",
 
     }),
-    password: joi.string().pattern(new RegExp('^[a-zA-Z0-9]{8}$')).required().min(8).messages({
+    password: joi.string().pattern(new RegExp('^[a-zA-Z0-9]{8,16}$')).required().min(8).messages({
         "string.base": "password must be a string",
         'string.min': "password must be 8 characters please!",
         "string.pattern.base": "password must contain letters, numbers and capital letters",
