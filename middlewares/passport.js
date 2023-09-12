@@ -15,7 +15,7 @@ export default passport.use(
     async (jwt_payload, done) => {
       try {
         let user = await User.findOne({ mail: jwt_payload.mail },
-          "-_id -__v -password" );
+          " -__v -password" );
         if (user) {
           return done(null, user); //si existe user INYECTA AL OBJETO DE REQUERIMIENTOS EL USUARIO con la propiedad user
         } else {
