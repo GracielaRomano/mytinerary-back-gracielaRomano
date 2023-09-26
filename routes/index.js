@@ -5,6 +5,9 @@ import itineraryRouter from './itineraries.js'
 import activityRouter from './activities.js'
 import authRouter from './auth.js'
 import likesRouter from './likes.js';
+import commentsRouter from "./comments.js";
+
+
 let router = express.Router();
 
 /* GET home page. */
@@ -19,4 +22,6 @@ router.use('/itineraries',itineraryRouter)
 router.use('/activities',activityRouter)
 router.use('/auth',authRouter)
 router.use('/likes',likesRouter)
+router.use("/comments", commentsRouter);
+
 export default router;
